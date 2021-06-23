@@ -1,4 +1,4 @@
-package com.tiagobohnenberger.personapi.repository;
+package com.tiagobohnenberger.personapi.repositories;
 
 import com.tiagobohnenberger.personapi.entities.Person;
 import org.springframework.data.jpa.repository.JpaRepository;

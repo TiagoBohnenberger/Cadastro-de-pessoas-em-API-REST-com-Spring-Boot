@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b70daa4b-366d-45c4-bab2-29b4f4e1e194" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tiagobohnenberger/personapi/service/PersonServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tiagobohnenberger/personapi/utils/PersonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tiagobohnenberger/personapi/utils/PhoneUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tiagobohnenberger/personapi/controllers/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tiagobohnenberger/personapi/controllers/PersonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tiagobohnenberger/personapi/services/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tiagobohnenberger/personapi/services/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tiagobohnenberger/personapi/entities/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tiagobohnenberger/personapi/entities/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tiagobohnenberger/personapi/entities/Person$PersonBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tiagobohnenberger/personapi/entities/Person$PersonBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tiagobohnenberger/personapi/entities/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tiagobohnenberger/personapi/entities/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/tiagobohnenberger/personapi/mapper/PersonMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/tiagobohnenberger/personapi/mapper/PersonMapperImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +60,7 @@
       <recent name="com.tiagobohnenberger.personapi.enums" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PersonServiceTest.testGivenPersonDTOThenReturnSavedMessage">
     <configuration name="PersonApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tiagobohnenberger.personapi.PersonApiApplication" />
       <module name="person-api" />
@@ -69,8 +74,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PersonApiApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="person-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tiagobohnenberger.personapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tiagobohnenberger.personapi" />
+      <option name="MAIN_CLASS_NAME" value="com.tiagobohnenberger.personapi.PersonApiApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonApiApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="person-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tiagobohnenberger.personapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tiagobohnenberger.personapi" />
+      <option name="MAIN_CLASS_NAME" value="com.tiagobohnenberger.personapi.PersonApiApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonServiceTest.testGivenPersonDTOThenReturnSavedMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="person-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tiagobohnenberger.personapi.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tiagobohnenberger.personapi.service" />
+      <option name="MAIN_CLASS_NAME" value="com.tiagobohnenberger.personapi.service.PersonServiceTest" />
+      <option name="METHOD_NAME" value="testGivenPersonDTOThenReturnSavedMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PersonServiceTest.testGivenPersonDTOThenReturnSavedMessage" />
+        <item itemvalue="JUnit.PersonApiApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.PersonApiApplicationTests" />
         <item itemvalue="Application.PersonApiApplication" />
       </list>
     </recent_temporary>
@@ -97,5 +152,13 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/person_api$PersonServiceTest_testGivenPersonDTOThenReturnSavedMessage.ic" NAME="PersonServiceTest.testGivenPersonDTOThenReturnSavedMessage Coverage Results" MODIFIED="1624654712770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.tiagobohnenberger.personapi.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/person_api$PersonApiApplicationTests.ic" NAME="PersonApiApplicationTests Coverage Results" MODIFIED="1624651769339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.tiagobohnenberger.personapi.*</FILTER>
+    </SUITE>
   </component>
 </project>
